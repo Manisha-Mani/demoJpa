@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+//Entity class is used to define table
 @Entity
 @Table(name="Product")
 public class ProductEntity {
