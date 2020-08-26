@@ -1,7 +1,9 @@
 package com.example.demoJpa.dto;
 
 import javax.persistence.Column;
-//In this case, ProductDTO is same as ENtity
+/*Data transfer Object(DTO) helps to tansfer data between
+ * service and DAO(Data Access Object)
+ */
 public class ProductDTO {
 
 	private Integer prodId;

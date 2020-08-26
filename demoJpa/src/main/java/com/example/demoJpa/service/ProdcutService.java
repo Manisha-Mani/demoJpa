@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import com.example.demoJpa.dao.ProductDao;
 import com.example.demoJpa.dto.ProductDTO;
 import com.example.demoJpa.entity.ProductEntity;
-
+//Service class is used to accept request from controller and perform required action on DAO
 @Service
 public class ProdcutService {
 
